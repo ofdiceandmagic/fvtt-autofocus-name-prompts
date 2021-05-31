@@ -1,7 +1,3 @@
-Hooks.once('init', async function() {
-
-});
-
-Hooks.once('ready', async function() {
-
+Hooks.on('renderDialog', () => {
+  document.querySelectorAll('#entity-create input[name=name]')[0].focus();
 });
