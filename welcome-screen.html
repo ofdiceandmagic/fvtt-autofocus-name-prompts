@@ -1,0 +1,40 @@
+<!--
+/**
+ * Based on https://github.com/ultrakorne/better-rolltables/blob/master/templates/welcome-screen.html
+ */
+-->
+<style>
+    .welcome-screen a[href] {
+        color: #4a52ca;
+    }
+    .welcome-screen .window-content > * {
+        flex: 0;
+    }
+</style>
+
+<div>
+    <h1>Welcome to Autofocus Name Prompts</h1>
+
+    <p>Check the <a href="https://github.com/ofdiceandmagic/fvtt-autofocus-name-prompts/blob/master/README.md">README</a> for more info on the module features.</p>
+    
+    <h2>Bugs or Suggestions?</h2>
+    <p>Add an <a href="https://github.com/ofdiceandmagic/fvtt-autofocus-name-prompts/issues">issue on Github</a> or find me on Discord! <b>atill91#5248</b> </p>
+    
+    <h2 style="display: flex; flex-flow: row nowrap; align-items: center; justify-content: flex-start; margin-top: 1em;">
+        <input type="checkbox" class='show-again' id="welcome-screen-show-again" {{checked isChecked}}/> 
+        <label for="welcome-screen-show-again">Don't show again until next update.</label>
+    </h2>
+    <p>If you want to say thank you and support my work, feel free to throw some money at me!</p>
+    <p style="background: rgb(198 243 212); text-align: center; font-size: 1.3em;">
+        <strong><a href="https://paypal.me/ofdiceandmagic">My Tip Jar: Paypal</a></strong>
+    </p>    
+</div>
+
+<div style="overflow: scroll; max-height: 450px;">
+    <h1 style="margin-top: 1em;">Patchnotes</h1>
+
+    <h2>v 0.2.4</h2>
+        <ul>
+            <li>New Welcome Screen with patch notes!</li>            
+        </ul>
+</div>
